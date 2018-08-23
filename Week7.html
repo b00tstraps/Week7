@@ -1,0 +1,117 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Very Easy</title>
+  </head>
+  <body>
+    **VERY EASY:** Create and add three elements of your choice to the page.
+    <div id="veryeasy"></div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="Week7.js"></script>
+  </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Easy</title>
+  </head>
+  <body>
+    **EASY:** Create a button that when you click on it, it toggles a message inside of a div. Using a condition that you create (hint: checking if a random number is of a certain value), toggle the message fast or slow.
+    If the condition is TRUE, toggle the message fast. If the condition is FALSE, toggle the message slow.
+
+    <div><p></p></div>
+    <button>Button</button>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="Week7.js"></script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Medium</title>
+  </head>
+  <body>
+    **MEDIUM:** Using the jQuery validation plug in, validate a form that you create. Must contain full name, address, state, city, zip, email and telephone number.
+    <form method="post" action="#" id="medium">
+      <p><label for="firstname">Full Name: </label><input type="text" name="fullname"></p>
+      <p><label for="lastname">Address: </label><input type="text" name="address"></p>
+      <p><label for="city">City: </label><input type="text" name="city"></p>
+      <p><label for="state">State: </label><input type="text" name="state"></p>
+      <p><label for="zip">Zip: </label><input type="text" name="zip" required></p>
+      <p><label for="email">E-mail: </label><input type="email" name="email"></p>
+      <p><label for="phone">Phone: </label><input type="tel" name="phone"></p>
+      <p><button type="submit">Submit</button></p>
+    </form>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="Week7.js"></script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hard</title>
+  </head>
+  <body>
+    **HARD:**
+    <a href="http://www.apple.com">Apple</a>
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.redventures.com">Red Ventures</a>
+    Given these 3 a tags in an HTML document, write a script that adds a target="_blank" property to each a tag and then add a title property to each a tag with the same URL that is in the href property.
+    For example, the Red Ventures link should look like this: `<a href="http://www.redventures.com" target="_blank" title="http://www.redventures.com">Red Ventures</a>`
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="Week7.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Very Hard</title>
+  </head>
+  <body>
+    **VERY HARD:**
+    Using jQuery, create a Tabata timer that has the following features:
+    1. Ask users how many sets they want to do
+    2. Ask users how long the activity in each set should be. Default to 20 seconds.
+    3. Ask users how long the rest period between each set should be. Default to 10 seconds.
+    4. Allow the user to start the timer once those questions have been answered.
+    5. Allow the user to stop the timer at any time after it has started.
+    6. Visually count down each activity period and then each rest period.
+    7. Make sure it is visually clear which period is currently being counted down.
+    8. If the user finishes all of the sets they created, congratulate them at the end.
+    9. Use CSS to make it look good on the desktop and also on a phone.
+    10. For extra credit use CSS or jQuery animations for the countdown.
+
+    <form>
+      <p>Time Left: <span id="count"> </span></p>
+      <fieldset>
+        <p><label for="settotal">How many sets:</label><input type="number" name="settotal" min="1"></p>
+        <p><label for="setduration">Duration of each set:</label><input type="number" name="setduration" min="1" value="20"></p>
+        <p><label for="restperiod">Rest between sets:</label><input type="number" name="settotal" min="1" value="10"></p>
+      </fieldset>
+      <p><button type="button">Start/Stop</button></p>
+    </form>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="Week7.js"></script>
+  </body>
+</html>
